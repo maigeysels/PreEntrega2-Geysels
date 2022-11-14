@@ -1,38 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: rgb(255, 255, 255);
-  font-family: "Kanit", sans-serif;
-}
-
-/*** LOGO ***/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap"); /*** LOGO ***/
 .logo {
   display: flex;
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.logo .imgLogo {
+  width: 300px;
+}
 
-/*** MENU ***/
+/*** NAV ***/
 .menu {
   margin-top: 20px;
   list-style: none;
   padding-left: 0;
 }
-
-a {
+.menu a {
   text-decoration: none;
   color: rgb(255, 0, 149);
   font-size: 22px;
   font-weight: 400px;
 }
-
-li {
+.menu li {
   display: inline;
+}
+
+/***h1***/
+h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  height: 100px;
+  background-color: rgb(255, 192, 229);
+  margin-top: 20px;
+}
+.footer .textoFooterUno {
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
 }
 
 /*** INDEX ***/
@@ -50,35 +60,9 @@ li {
   padding-left: 500px;
 }
 
-/**Footer**/
-.footer {
-  height: 100px;
-  background-color: rgb(255, 192, 229);
-  margin-top: 20px;
-}
-
-.textoFooterUno {
-  text-align: center;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 10px;
-}
-
 /****SHOP****/
-img {
-  width: 300px;
-}
-
-/***.shop {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 100px;
-    margin-bottom: 200px;
-    display: flex;
-    justify-content: space-around;
-
-} ****/
 .imgShop {
+  width: 300px;
   border-radius: 7px;
 }
 
@@ -91,17 +75,18 @@ img {
   background-image: url(/inspiration/fondo\ 2.jpg);
   background-repeat: no repeat;
 }
-
-.inspiration {
+.bodyInspiration .inspiration {
   background-color: white;
 }
 
-/***CONTACT***/
-h1 {
-  text-align: center;
-  font-size: 25px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Kanit", sans-serif;
 }
 
 /*# sourceMappingURL=estilo.css.map */
