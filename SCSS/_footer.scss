@@ -1,5 +1,5 @@
 .footer {
-    height: 100px;
+    height: 120px;
     background-color: $color-principal;
     margin-top: 20px;
   
@@ -12,3 +12,14 @@
           }
   
       }
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+
+    .be {
+        margin-right: 1rem;
+    }
+}
+

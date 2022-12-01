@@ -34,7 +34,7 @@ h1 {
 }
 
 .footer {
-  height: 100px;
+  height: 120px;
   background-color: rgb(255, 192, 229);
   margin-top: 20px;
 }
@@ -43,6 +43,15 @@ h1 {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 10px;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.iconos .be {
+  margin-right: 1rem;
 }
 
 /*** INDEX ***/
@@ -72,11 +81,18 @@ h1 {
 }
 
 /* LATEST PROJECTS*/
-.imgProjects {
-  width: 350px;
-  border-radius: 7px;
+/*mobile*/
+@media (min-width: 350px) {
+  .imgProjects {
+    width: 300px;
+  }
 }
-
+/*tablet-escritorio*/
+@media (min-width: 600px) {
+  .imgProjects {
+    width: 500px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

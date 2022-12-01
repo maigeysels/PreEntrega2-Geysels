@@ -1,6 +1,17 @@
 /* LATEST PROJECTS*/
 
-.imgProjects {
-    width: 350px;
-    border-radius: 7px;
+/*mobile*/
+
+@media (min-width:350px) {
+  .imgProjects {
+    width: 300px;
   }
+}
+
+/*tablet-escritorio*/
+
+@media (min-width:600px) {
+  .imgProjects {
+    width: 500px;
+  }
+}
