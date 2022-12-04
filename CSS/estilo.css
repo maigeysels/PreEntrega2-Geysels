@@ -9,20 +9,15 @@
   width: 300px;
 }
 
-/*** NAV ***/
-.menu {
-  margin-top: 20px;
-  list-style: none;
-  padding-left: 0;
-}
-.menu a {
-  text-decoration: none;
+/* NAV */
+.nav-link {
   color: rgb(255, 0, 149);
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 400px;
 }
-.menu li {
-  display: inline;
+
+.nav-link:hover {
+  color: rgb(250, 97, 186);
 }
 
 /***h1***/
@@ -33,6 +28,13 @@ h1 {
   margin-bottom: 10px;
 }
 
+@media (max-width: 656px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .footer {
   height: 120px;
   background-color: rgb(255, 192, 229);
@@ -56,26 +58,33 @@ h1 {
 
 /*** INDEX ***/
 .textoUno {
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .textoDos {
-  font-size: 35px;
+  font-size: 12px;
 }
 
 .dragon {
-  width: 700px;
+  width: 100%;
 }
 
 .espejo {
-  width: 700px;
+  width: 200px;
+  margin-right: 20px;
 }
 
-/*.seccion1 {
+.seccion1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion2 {
+  display: flex;
   justify-content: space-between;
-} */
+}
+
 .seeMy {
   text-decoration: none;
   color: rgb(255, 0, 149);
@@ -87,9 +96,75 @@ h1 {
   color: rgb(255, 192, 229);
 }
 
+.dra {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.esp {
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+/*VISTA TABLET*/
+@media (min-width: 600px) {
+  .textoUno {
+    font-size: 30px;
+  }
+  .espejo {
+    width: 300px;
+  }
+  .textoDos {
+    font-size: 21px;
+  }
+}
+/*VISTA DESKTOP 1024*/
+@media (min-width: 1024px) {
+  .dragon {
+    width: 600px;
+  }
+  .seccion1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: flex-start;
+  }
+  .textoUno {
+    font-size: 35px;
+  }
+  .espejo {
+    width: 400px;
+  }
+  .textoDos {
+    font-size: 35px;
+  }
+}
+/*VISTA DESKTOP 1200*/
+@media (min-width: 1200px) {
+  .dragon {
+    width: 800px;
+  }
+  .seccion1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: flex-start;
+  }
+  .textoUno {
+    font-size: 47px;
+  }
+  .espejo {
+    width: 500px;
+  }
+  .textoDos {
+    font-size: 38px;
+  }
+}
 /****SHOP****/
 .imgShop {
-  width: 300px;
+  width: 320px;
   border-radius: 7px;
 }
 
