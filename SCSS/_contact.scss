@@ -1,0 +1,23 @@
+//* CONTACT *//
+
+.btn {
+    color: white;
+    background-color: rgb(255, 0, 149);
+    border-color: rgb(255, 0, 149);
+}
+
+.btn:hover {
+    background-color: $color-principal;
+    border-color: rgb(16, 90, 48);
+}
+
+.btn:active {
+    background-color: rgb(16, 90, 48);
+    
+}
+
+form {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

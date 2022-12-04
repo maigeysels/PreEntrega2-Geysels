@@ -1,8 +1,37 @@
 /*** INDEX ***/
 
-.textoIndex {
-    background-color: $color-principal;
-    margin-top: 50px;
+.textoUno {
+    font-size: 50px;
+
   }
+
+.textoDos {
+    font-size: 35px;
+  }
+
+.dragon {
+  width: 700px;
+}
+
+.espejo {
+  width: 700px;
+}
+
+/*.seccion1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+.seeMy {
+  text-decoration: none;
+  color: rgb(255, 0, 149);
+  display: flex;
+  justify-content: center;
+}
+
+.seeMy:hover {
+  color: $color-principal;
+}
   
  

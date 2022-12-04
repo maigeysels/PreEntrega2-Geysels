@@ -55,9 +55,36 @@ h1 {
 }
 
 /*** INDEX ***/
-.textoIndex {
-  background-color: rgb(255, 192, 229);
-  margin-top: 50px;
+.textoUno {
+  font-size: 50px;
+}
+
+.textoDos {
+  font-size: 35px;
+}
+
+.dragon {
+  width: 700px;
+}
+
+.espejo {
+  width: 700px;
+}
+
+/*.seccion1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+.seeMy {
+  text-decoration: none;
+  color: rgb(255, 0, 149);
+  display: flex;
+  justify-content: center;
+}
+
+.seeMy:hover {
+  color: rgb(255, 192, 229);
 }
 
 /****SHOP****/
@@ -75,6 +102,8 @@ h1 {
 .bodyInspiration {
   background-image: url(../inspiration/fondo-2.jpg);
   background-repeat: no repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .bodyInspiration .inspiration {
   background-color: white;
@@ -93,6 +122,26 @@ h1 {
     width: 500px;
   }
 }
+.btn {
+  color: white;
+  background-color: rgb(255, 0, 149);
+  border-color: rgb(255, 0, 149);
+}
+
+.btn:hover {
+  background-color: rgb(255, 192, 229);
+  border-color: rgb(16, 90, 48);
+}
+
+.btn:active {
+  background-color: rgb(16, 90, 48);
+}
+
+form {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
