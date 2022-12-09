@@ -184,6 +184,57 @@ h1 {
   background-color: white;
 }
 
+.imgInspiration {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 650px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dos {
+  margin-top: 50px;
+}
+
+@media (max-width: 1317px) {
+  .imgInspiration {
+    width: 180px;
+  }
+  .contenedor {
+    height: 500px;
+  }
+}
+/*VISTA MOBILE y TABLET*/
+@media (max-width: 1024px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+  }
+  .columna {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 400px) {
+  .imgInspiration {
+    width: 150px;
+  }
+}
 /* LATEST PROJECTS*/
 /*mobile*/
 @media (min-width: 350px) {
